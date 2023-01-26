@@ -1,0 +1,29 @@
+Request Headers
+User-Agent: PostmanRuntime/7.30.0 - what describes the browser or tool that is making the call
+Accept: */* - This is what kind of data is being accepted. For */* it is any data.
+Postman-Token: 244259da-7f9f-4854-beb8-436cba20975a - The custom token that postman sends
+Host: www.googleapis.com - This represents who is the host, where the request is going to.
+Accept-Encoding: gzip, deflate, br - How the data is encoded
+Connection: keep-alive - This determines whether the connection stays open after the transaction ends
+
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 - What is coming back to the client.
+Vary: Origin - Describes the parts of the request message aside from the method and URL
+Vary: X-Origin - Describes the parts of the request message aside from the method and URL
+Vary: Referer - Describes the parts of the request message aside from the method and URL
+Content-Encoding: gzip - How the content is encoded
+Date: Wed, 25 Jan 2023 22:29:06 GMT - used to timestamp the request/response message
+Server: ESF - The type of server
+Cache-Control: private - Used to specify browser caching policies in both client requests and server responses
+X-XSS-Protection: 0 - Stops pages from loading when they detect reflected cross-site scripting attacks
+X-Frame-Options: SAMEORIGIN - Whether or not a browser should be allowed to render in the same origin
+X-Content-Type-Options: nosniff - Marker used by the server to indicate that the MIME types advertised
+									in the Content-Type headers should be followed and not changed
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - Allows a server to indicate that another network
+															location can be treated as authoritative for that
+															origin when making future requests
+Transfer-Encoding: chunked - used to break the response into smaller parts with the
+							 Transfer-Encoding: chunked value. This is a new header in
+							 HTTP/1.1 and allows for streaming of response to the client
+							 instad of one big payload
