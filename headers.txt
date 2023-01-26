@@ -19,11 +19,11 @@ Cache-Control: private - Used to specify browser caching policies in both client
 X-XSS-Protection: 0 - Stops pages from loading when they detect reflected cross-site scripting attacks
 X-Frame-Options: SAMEORIGIN - Whether or not a browser should be allowed to render in the same origin
 X-Content-Type-Options: nosniff - Marker used by the server to indicate that the MIME types advertised
-									in the Content-Type headers should be followed and not changed
+				in the Content-Type headers should be followed and not changed
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - Allows a server to indicate that another network
-															location can be treated as authoritative for that
-															origin when making future requests
+							location can be treated as authoritative for that
+							origin when making future requests
 Transfer-Encoding: chunked - used to break the response into smaller parts with the
-							 Transfer-Encoding: chunked value. This is a new header in
-							 HTTP/1.1 and allows for streaming of response to the client
-							 instad of one big payload
+			Transfer-Encoding: chunked value. This is a new header in
+			HTTP/1.1 and allows for streaming of response to the client
+			instad of one big payload
